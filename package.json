@@ -1,0 +1,22 @@
+{
+  "name": "neo4py",
+  "version": "1.0.0",
+  "description": "neo4py is a better alternative to py2neo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node index.js"
+  },
+  "keywords": [
+    "neo4py",
+    "typescript",
+    "neo4j",
+    "graph databases"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "neo4j-driver": "^5.23.0"
+  }
+}
